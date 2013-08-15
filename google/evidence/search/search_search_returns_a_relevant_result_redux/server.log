@@ -1,0 +1,100 @@
+Aug 15, 2013 1:23:42 PM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+13:23:48.278 INFO - Java: Oracle Corporation 23.6-b04
+13:23:48.279 INFO - OS: Mac OS X 10.8.4 x86_64
+13:23:48.309 INFO - v2.34.0, with Core v2.34.0. Built from revision 11cd0ef
+13:23:48.829 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:23:48.832 INFO - Version Jetty/5.1.x
+13:23:48.833 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+13:23:48.835 INFO - Started HttpContext[/selenium-server,/selenium-server]
+13:23:48.835 INFO - Started HttpContext[/,/]
+13:23:48.929 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@5f937246
+13:23:48.930 INFO - Started HttpContext[/wd,/wd]
+13:23:48.951 INFO - Started SocketListener on 0.0.0.0:4444
+13:23:48.951 INFO - Started org.openqa.jetty.jetty.Server@550c6b37
+13:23:50.217 INFO - Executing: [new session: {platform=ANY, firefox_profile=UEsDBBQAAAAIAPhqD0OeoZJKNgMAA..., javascriptEnabled=true, cssSelectorsEnabled=true, browserName=firefox, nativeEvents=false, rotatable=false, takesScreenshot=true, version=}] at URL: /session)
+13:23:50.273 INFO - Creating a new session for Capabilities [{firefox_profile=UEsDBBQAAAAIAPhqD0OeoZJKNgMAAAILAAAHAAAAdXNlci5qc5VWwW7jNhC99ysKn1qgprZZ7KU9bTc9LLDAHoKgR4KiRhJjkkMMScv++w4lB7FjWYpPoqT3yBnOm0fmCCQDQfvbpiYc+E006MRgfIODaLILAryqLTSbP35NlOH3v3/J15yYFKUcRFAdMPDTMqpHByfkRtWY01+1VX63uWSVOJw6yKjJhCQpe5mMK6TPn66RBAEpSWWtfIkSDhpCMujjbNgvaq+maQVOMBF7HL77bzxEC7MkD2lA2ok+pVAC22r0HvRI3wagLUP3QMz98118A9QNGf4nlS5xyex5+pigkRoozcd4RooxOzgjGf4wLtQqG2/RhMVOtGZMZlM9MyJWDgmqR8JQ46GSDeyrr0Td0UKle3AmJjruTNrCQblgIVYdYsc/YW8a8BqqCIp0f3rI04MgZfJRKh5Z2CvPtYKYbXk0+VC1hgPDQ4nnXYVVCCKHRiUQKiecT+gM9KbEGdybfAdvUTVcIs8ao7Gy//Xgn4r6jO+W6f8+//gqkPePOOdFzY/Iz2Iq6Up/WON3LDXwrMwE5JVl+MMa1sMwNeJtMLYt42E5p6haGMec/cc28YLhlB0UfXD7J1GcKrYGjbE0T2JViiIZFnlL6KQmFfsVbg/WClat3j1Cq1ht/0x/lmlJ1VFwMv6n/2YxrgR4hv7J9ZgHcxclRBsFSwZJTwayaJrFrhoTC0COdW4y8T7Lotr5NYpo/LhXY6M8TuQnzew44zdn8Nqi3lnu7OXqnTG4TbtLnVxncAb/SGtewz0m0x6fb9br1WunHt6eVL7lAyTluEwZ7Tn0JvbHbfkd2D63FnyXiqQevny5pL1OzTbDm2stDrI+sjWOmppNPrBEQ4pFHdJho+xy8hE0lzcdRy/mkUAyvMEyoDX6WE6zFTy7stFJvqctLVU0K8Gz0xRdjZ9vSH2RMlqnRHb+u8gDqN3dhPvWsqD296V2ybhvtZhrZ5I0/uPL7Q0MZTlnDqvCuCashmc6j54904GrgZ7G1xt9UcyJD3Vx6o/XU/FkQLMKf6UkPs8d8KVATJofM3lYwy52wzWc4IUvUTeM5u0SNM0qvUr8KmHP4rmR8PtbJsvLaiwXKLIzN87/AVBLAQI0AxQAAAAIAPhqD0OeoZJKNgMAAAILAAAHAAAAAAAAAAEAAACkgQAAAAB1c2VyLmpzUEsFBgAAAAABAAEANQAAAFsDAAAAAA==, platform=ANY, cssSelectorsEnabled=true, javascriptEnabled=true, browserName=firefox, nativeEvents=false, rotatable=false, takesScreenshot=true, version=}]
+13:24:00.288 INFO - Done: /session
+13:24:00.306 INFO - Executing: [get: http://google.com/] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/url)
+13:24:01.648 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/url
+13:24:01.662 INFO - Executing: [get title] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/title)
+13:24:01.778 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/title
+13:24:01.787 INFO - Executing: [find element: By.id: gbqfq] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element)
+13:24:01.951 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element
+13:24:01.967 INFO - Executing: [send keys: 0 [[FirefoxDriver: firefox on MAC (aa1d7386-61f0-544f-8149-a32aa49625ef)] -> id: gbqfq], [elemental selenium tips]] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element/0/value)
+13:24:02.174 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element/0/value
+13:24:02.179 INFO - Executing: [find element: By.id: gbqfb] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element)
+13:24:02.294 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element
+13:24:02.301 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (aa1d7386-61f0-544f-8149-a32aa49625ef)] -> id: gbqfb]] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element/1/click)
+13:24:02.550 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element/1/click
+13:24:02.555 INFO - Executing: [find element: By.selector: #rso .g] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element)
+13:24:04.097 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"css selector","selector":"#rso .g"}
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.34.0', revision: '11cd0ef', time: '2013-08-06 17:10:22'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.7.0_11'
+Session ID: aa1d7386-61f0-544f-8149-a32aa49625ef
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=22.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:396)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:407)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+	at $Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"css selector","selector":"#rso .g"}
+Build info: version: '2.34.0', revision: '11cd0ef', time: '2013-08-06 17:10:22'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.7.0_11'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/r5/p1f29nw146q__hjgj6tkrnk40000gn/T/anonymous2363071805387837789webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8879)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/r5/p1f29nw146q__hjgj6tkrnk40000gn/T/anonymous2363071805387837789webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8888)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/r5/p1f29nw146q__hjgj6tkrnk40000gn/T/anonymous2363071805387837789webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10816)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/r5/p1f29nw146q__hjgj6tkrnk40000gn/T/anonymous2363071805387837789webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10821)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/r5/p1f29nw146q__hjgj6tkrnk40000gn/T/anonymous2363071805387837789webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10763)
+13:24:04.108 WARN - Exception: Unable to locate element: {"method":"css selector","selector":"#rso .g"}
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.34.0', revision: '11cd0ef', time: '2013-08-06 17:10:22'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.8.4', java.version: '1.7.0_11'
+Session ID: aa1d7386-61f0-544f-8149-a32aa49625ef
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=22.0}]
+13:24:04.558 INFO - Executing: [find element: By.selector: #rso .g] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element)
+13:24:04.576 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element
+13:24:04.584 INFO - Executing: [is displayed: 2 [[FirefoxDriver: firefox on MAC (aa1d7386-61f0-544f-8149-a32aa49625ef)] -> css selector: #rso .g]] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element/2/displayed)
+13:24:04.625 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element/2/displayed
+13:24:04.630 INFO - Executing: [find element: By.selector: #rso .g] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element)
+13:24:04.648 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element
+13:24:04.653 INFO - Executing: [get text: 2 [[FirefoxDriver: firefox on MAC (aa1d7386-61f0-544f-8149-a32aa49625ef)] -> css selector: #rso .g]] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element/2/text)
+13:24:04.991 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/element/2/text
+13:24:05.003 INFO - Executing: [get page source] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/source)
+13:24:05.249 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600/source
+13:24:05.319 INFO - Executing: [delete session: ef6062ef-eb54-4a28-ba74-9d7874810600] at URL: /session/ef6062ef-eb54-4a28-ba74-9d7874810600)
+13:24:05.548 INFO - Done: /session/ef6062ef-eb54-4a28-ba74-9d7874810600
+13:24:06.453 INFO - Checking Resource aliases
+13:24:06.456 INFO - Command request: shutDownSeleniumServer[, ] on session null
+13:24:06.458 INFO - Shutdown command received
+13:24:06.459 INFO - initiating shutdown
+13:24:06.459 INFO - Got result: OK on session null
+13:24:06.962 INFO - Shutting down...

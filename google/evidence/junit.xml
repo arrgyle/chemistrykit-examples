@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites errors="0" failures="1" skipped="0" tests="2" time="61.715632" timestamp="2013-08-15T13:24:40-04:00">
+  <testsuite name="search" tests="2" errors="0" failures="1" skipped="0">
+    <properties/>
+    <testcase name="search_search_returns_a_relevant_result_redux" time="25.931188">
+      <failure message="failed Search search returns a relevant result redux" type="failed">
+        <![CDATA[expected: false value
+     got: true
+./beakers/search_beaker.rb:17:in `block (2 levels) in <top (required)>']]>
+      </failure>
+    </testcase>
+    <testcase name="search_search_returns_a_relevant_result" time="25.483822">
+    </testcase>
+  </testsuite>
+</testsuites>
