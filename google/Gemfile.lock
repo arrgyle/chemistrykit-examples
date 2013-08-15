@@ -2,15 +2,18 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.2)
-    chemistrykit (3.8.1)
+    chemistrykit (3.9.0.rc2)
       builder (~> 3.2.2)
+      nokogiri (~> 1.6.0)
       parallel (~> 0.7.0)
       parallel_tests (~> 0.15.0)
+      pygments.rb (~> 0.5.2)
       rest-client (~> 1.6.7)
       rspec (~> 2.14.1)
       rspec-retry (~> 0.2.1)
-      selenium-connect (~> 3.4.0)
+      selenium-connect (~> 3.5.0)
       selenium-webdriver (~> 2.29.0)
+      syntax
       thor (~> 0.17.0)
     childprocess (0.3.9)
       ffi (~> 1.0, >= 1.0.11)
@@ -20,14 +23,21 @@ GEM
     highline (1.6.19)
     json (1.8.0)
     mime-types (1.24)
+    mini_portile (0.5.1)
     multi_json (1.7.9)
     net-http-persistent (2.9)
     net-ssh (2.6.8)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     parallel (0.7.1)
     parallel_tests (0.15.0)
       parallel
+    posix-spawn (0.3.6)
+    pygments.rb (0.5.2)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
     rake (10.1.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
@@ -54,7 +64,7 @@ GEM
       selenium-webdriver (>= 0.1.2)
     sauce_whisk (0.0.9)
       rest-client
-    selenium-connect (3.4.0)
+    selenium-connect (3.5.0)
       rake
       sauce (~> 2.4.4)
       sauce_whisk (~> 0.0.8)
@@ -64,11 +74,13 @@ GEM
       multi_json (~> 1.0)
       rubyzip
       websocket (~> 1.0.4)
+    syntax (1.0.0)
     thor (0.17.0)
     websocket (1.0.7)
+    yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  chemistrykit
+  chemistrykit (~> 3.9.0.rc2)
