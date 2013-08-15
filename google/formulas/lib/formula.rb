@@ -14,7 +14,7 @@ class Formula < ChemistryKit::Formula::Base
   end
 
   def visit(url='/')
-    driver.get(ENV['base_url'] + url)
+    driver.get(ENV['BASE_URL'] + url)
   end
 
   def find(locator)
