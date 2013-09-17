@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.2)
-    chemistrykit (3.9.0.rc2)
+    chemistrykit (3.10.0)
       builder (~> 3.2.2)
       nokogiri (~> 1.6.0)
       parallel (~> 0.7.0)
@@ -11,8 +11,8 @@ GEM
       rest-client (~> 1.6.7)
       rspec (~> 2.14.1)
       rspec-retry (~> 0.2.1)
-      selenium-connect (~> 3.5.0)
-      selenium-webdriver (~> 2.29.0)
+      selenium-connect (~> 3.7.0)
+      selenium-webdriver (~> 2.35.1)
       syntax
       thor (~> 0.17.0)
     childprocess (0.3.9)
@@ -22,17 +22,17 @@ GEM
     ffi (1.9.0)
     highline (1.6.19)
     json (1.8.0)
-    mime-types (1.24)
+    mime-types (1.25)
     mini_portile (0.5.1)
-    multi_json (1.7.9)
+    multi_json (1.8.0)
     net-http-persistent (2.9)
-    net-ssh (2.6.8)
+    net-ssh (2.7.0)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     parallel (0.7.1)
-    parallel_tests (0.15.0)
+    parallel_tests (0.15.4)
       parallel
     posix-spawn (0.3.6)
     pygments.rb (0.5.2)
@@ -62,17 +62,17 @@ GEM
       net-ssh-gateway
       rest-client
       selenium-webdriver (>= 0.1.2)
-    sauce_whisk (0.0.9)
+    sauce_whisk (0.0.10)
       rest-client
-    selenium-connect (3.5.0)
+    selenium-connect (3.7.0)
       rake
       sauce (~> 2.4.4)
       sauce_whisk (~> 0.0.8)
       selenium-webdriver
-    selenium-webdriver (2.29.0)
+    selenium-webdriver (2.35.1)
       childprocess (>= 0.2.5)
       multi_json (~> 1.0)
-      rubyzip
+      rubyzip (< 1.0.0)
       websocket (~> 1.0.4)
     syntax (1.0.0)
     thor (0.17.0)
@@ -83,4 +83,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chemistrykit (~> 3.9.0.rc2)
+  chemistrykit (~> 3.10.0)
