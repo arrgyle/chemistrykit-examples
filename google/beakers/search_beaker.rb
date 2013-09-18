@@ -13,7 +13,7 @@ describe "Search", :depth => 'shallow' do
 
   # This example is meant to fail to show what a failure
   # looks like in the HTML report in the evidence directory
-  it 'search returns a relevant result redux' do
+  it 'demonstrate a test failure' do
     @result.should be_false
   end
 
