@@ -1,51 +1,51 @@
-Sep 18, 2013 12:23:19 AM org.openqa.grid.selenium.GridLauncher main
+Sep 18, 2013 12:38:34 AM org.openqa.grid.selenium.GridLauncher main
 INFO: Launching a standalone server
 Setting system property webdriver.firefox.logfile to c:\log\firefox.log
-00:23:19.296 INFO - Java: Sun Microsystems Inc. 20.10-b01
-00:23:19.296 INFO - OS: Windows 2003 5.2 x86
-00:23:19.312 INFO - v2.32.0, with Core v2.32.0. Built from revision 6c40c18
-00:23:19.500 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4443/wd/hub
-00:23:19.500 INFO - Version Jetty/5.1.x
-00:23:19.500 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-00:23:19.500 INFO - Started HttpContext[/selenium-server,/selenium-server]
-00:23:19.500 INFO - Started HttpContext[/,/]
-00:23:19.562 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@ee22f7
-00:23:19.562 INFO - Started HttpContext[/wd,/wd]
-00:23:19.562 INFO - Started SocketListener on 0.0.0.0:4443
-00:23:19.562 INFO - Started org.openqa.jetty.jetty.Server@74c3aa
-00:23:22.375 INFO - Executing: [new session: {port=80, host=ondemand.saucelabs.com, browserName=firefox, local_application_port=3001, browser_url=http://saucelabs.com, access_key=ab7a6e17-16df-42d2-9ef6-c8d25..., webdriver.remote.quietExceptions=true, start_tunnel=true, capture_traffic=false, client_version=Ruby: ruby 1.9.3 (x86_64-linu...}] at URL: /session)
-00:23:25.765 INFO - Done: /session
-00:23:25.781 INFO - Executing: [execute script: window.moveTo(0,0);window.resizeTo(screen.width,screen.height);, []] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/execute)
-00:23:25.812 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/execute
-00:23:25.828 INFO - Executing: [maximise window] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/window/current/maximize)
-00:23:25.875 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/window/current/maximize
-00:23:25.890 INFO - Executing: [get window handles] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/window_handles)
-00:23:25.906 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/window_handles
-00:23:26.156 INFO - Executing: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@cb07ef at URL: /session/db671064-466f-42c9-8b0d-625a78c39489)
-00:23:26.156 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489
-00:23:26.781 INFO - Executing: [get: http://google.com/] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/url)
-00:23:27.984 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/url
-00:23:28.375 INFO - Executing: [get title] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/title)
-00:23:28.406 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/title
-00:23:28.609 INFO - Executing: [find element: By.id: gbqfq] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/element)
-00:23:28.671 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/element
-00:23:28.890 INFO - Executing: [send keys: 0 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@fe6220da, [elemental selenium tips]] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/element/0/value)
-00:23:29.671 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/element/0/value
-00:23:30.140 INFO - Executing: [find element: By.id: gbqfb] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/element)
-00:23:30.171 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/element
-00:23:30.421 INFO - Executing: [click: 1 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@e1b42410] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/element/1/click)
-00:23:30.625 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/element/1/click
-00:23:31.078 INFO - Executing: [find element: By.selector: #rso .g] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/element)
-00:23:31.515 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/element
-00:23:31.656 INFO - Executing: [is displayed: 2 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@b4d93ebc] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/element/2/displayed)
-00:23:31.687 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/element/2/displayed
-00:23:31.906 INFO - Executing: [find element: By.selector: #rso .g] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/element)
-00:23:31.921 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/element
-00:23:32.062 INFO - Executing: [get text: 2 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@b4d93ebc] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/element/2/text)
-00:23:32.296 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/element/2/text
-00:23:32.453 INFO - Executing: [get window handles] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/window_handles)
-00:23:32.484 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/window_handles
-00:23:32.687 INFO - Executing: [switch to window: {79fd8909-3c4d-4e1c-87f5-b47b3a1f408d}] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/window)
-00:23:32.718 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/window
-00:23:32.843 INFO - Executing: [get page source] at URL: /session/db671064-466f-42c9-8b0d-625a78c39489/source)
-00:23:32.984 INFO - Done: /session/db671064-466f-42c9-8b0d-625a78c39489/source
+00:38:35.140 INFO - Java: Sun Microsystems Inc. 20.10-b01
+00:38:35.140 INFO - OS: Windows 2003 5.2 x86
+00:38:35.156 INFO - v2.32.0, with Core v2.32.0. Built from revision 6c40c18
+00:38:35.281 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4443/wd/hub
+00:38:35.296 INFO - Version Jetty/5.1.x
+00:38:35.296 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+00:38:35.296 INFO - Started HttpContext[/selenium-server,/selenium-server]
+00:38:35.296 INFO - Started HttpContext[/,/]
+00:38:35.343 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@39ab89
+00:38:35.343 INFO - Started HttpContext[/wd,/wd]
+00:38:35.359 INFO - Started SocketListener on 0.0.0.0:4443
+00:38:35.359 INFO - Started org.openqa.jetty.jetty.Server@74c3aa
+00:38:37.312 INFO - Executing: [new session: {port=80, host=ondemand.saucelabs.com, browserName=firefox, local_application_port=3001, browser_url=http://saucelabs.com, access_key=ab7a6e17-16df-42d2-9ef6-c8d25..., webdriver.remote.quietExceptions=true, start_tunnel=true, capture_traffic=false, client_version=Ruby: ruby 1.9.3 (x86_64-linu...}] at URL: /session)
+00:38:42.046 INFO - Done: /session
+00:38:42.078 INFO - Executing: [execute script: window.moveTo(0,0);window.resizeTo(screen.width,screen.height);, []] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/execute)
+00:38:42.093 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/execute
+00:38:42.109 INFO - Executing: [maximise window] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/window/current/maximize)
+00:38:42.156 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/window/current/maximize
+00:38:42.187 INFO - Executing: [get window handles] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/window_handles)
+00:38:42.218 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/window_handles
+00:38:42.328 INFO - Executing: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@c272bc at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861)
+00:38:42.328 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861
+00:38:42.593 INFO - Executing: [get: http://google.com/] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/url)
+00:38:43.437 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/url
+00:38:43.656 INFO - Executing: [get title] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/title)
+00:38:43.687 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/title
+00:38:43.890 INFO - Executing: [find element: By.id: gbqfq] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element)
+00:38:43.953 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element
+00:38:44.171 INFO - Executing: [send keys: 0 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@4dbfbe94, [elemental selenium tips]] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element/0/value)
+00:38:44.843 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element/0/value
+00:38:45.218 INFO - Executing: [find element: By.id: gbqfb] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element)
+00:38:45.218 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element
+00:38:45.468 INFO - Executing: [click: 1 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@ececbf5b] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element/1/click)
+00:38:45.718 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element/1/click
+00:38:46.156 INFO - Executing: [find element: By.selector: #rso .g] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element)
+00:38:46.453 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element
+00:38:46.656 INFO - Executing: [is displayed: 2 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@12232ecb] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element/2/displayed)
+00:38:46.687 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element/2/displayed
+00:38:46.906 INFO - Executing: [find element: By.selector: #rso .g] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element)
+00:38:46.921 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element
+00:38:47.046 INFO - Executing: [get text: 2 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@12232ecb] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element/2/text)
+00:38:47.265 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/element/2/text
+00:38:47.406 INFO - Executing: [get window handles] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/window_handles)
+00:38:47.453 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/window_handles
+00:38:47.656 INFO - Executing: [switch to window: {a85ad0e4-2835-4aae-ae04-9c975d714248}] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/window)
+00:38:47.687 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/window
+00:38:47.812 INFO - Executing: [get page source] at URL: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/source)
+00:38:47.937 INFO - Done: /session/1bad9f14-3abb-4897-86cb-ca18707e0861/source

@@ -1,31 +1,4 @@
-<div class="results" data-count="2" data-duration="58.191349534" data-failures="1" data-pendings="0"><div class="row example-group failing "><div class="large-12 columns">
-<h3>
-<i class="icon-beaker"></i> Search</h3>
-<div class="examples">
-<div class="row example passing hide"><div class="large-12 columns">
-<div class="row example-heading">
-<div class="large-9 columns"><p>Search returns a relevant result</p></div>
-<div class="large-3 columns text-right"><p>25s</p></div>
-</div>
-<div class="row example-body"><div class="large-12 columns"></div></div>
-</div></div>
-<div class="row example failing "><div class="large-12 columns">
-<div class="row example-heading">
-<div class="large-9 columns"><p>Demonstrate a test failure</p></div>
-<div class="large-3 columns text-right"><p>24s</p></div>
-</div>
-<div class="row example-body"><div class="large-12 columns">
-<div class="row exception"><div class="large-12 columns"><pre>expected: false value
-     got: true</pre></div></div>
-<div class="row code-snippet"><div class="large-12 columns"><pre class="ruby"><code><span class="linenum">15</span>  <span class="comment"># looks like in the HTML report in the evidence directory</span>
-<span class="linenum">16</span>  <span class="ident">it</span> <span class="punct">'</span><span class="string">demonstrate a test failure</span><span class="punct">'</span> <span class="keyword">do</span>
-<span class="offending"><span class="linenum">17</span>    <span class="attribute">@result</span><span class="punct">.</span><span class="ident">should</span> <span class="ident">be_false</span></span>
-<span class="linenum">18</span>  <span class="keyword">end</span></code></pre></div></div>
-<div class="row extra-content"><div class="large-12 columns"><div class="section-container auto" data-section="">
-<section><p class="title" data-section-title=""><a href="#panel097fb1bd-03d5-4af7-999d-6349015dbbe5">Failure Screenshot</a></p>
-<div class="content" data-section-content=""><img src="/vagrant/chemistrykit-examples/google/evidence/search/search_demonstrate_a_test_failure/failshot.png"></div></section><section><p class="title" data-section-title=""><a href="#panelb4a92878-b3cb-4c9c-b556-ef4e01d8c538">Stack Trace</a></p>
-<div class="content" data-section-content=""><pre>./beakers/search_beaker.rb:17:in `block (2 levels) in &lt;top (required)&gt;'</pre></div></section><section><p class="title" data-section-title=""><a href="#panelf05c6c93-9a32-45d5-8917-723c7aa7314a">Server.log</a></p>
-<div class="content" data-section-content=""><pre>Sep 18, 2013 12:39:00 AM org.openqa.grid.selenium.GridLauncher main
+Sep 18, 2013 12:39:00 AM org.openqa.grid.selenium.GridLauncher main
 INFO: Launching a standalone server
 Setting system property webdriver.firefox.logfile to c:\log\firefox.log
 00:39:00.421 INFO - Java: Sun Microsystems Inc. 20.10-b01
@@ -76,14 +49,3 @@ Setting system property webdriver.firefox.logfile to c:\log\firefox.log
 00:39:12.656 INFO - Done: /session/e3ff7423-29e1-4962-ade0-053d0adab8ad/window
 00:39:12.781 INFO - Executing: [get page source] at URL: /session/e3ff7423-29e1-4962-ade0-053d0adab8ad/source)
 00:39:12.921 INFO - Done: /session/e3ff7423-29e1-4962-ade0-053d0adab8ad/source
-</pre></div></section><section><p class="title" data-section-title=""><a href="#panel19de775e-e854-4edb-aba7-72c95e4b591f">Sauce_job.log</a></p>
-<div class="content" data-section-content=""><pre>{:assets=&gt;{:failshot=&gt;"failshot.png", :server_log=&gt;"server.log", :job_data_log=&gt;"sauce_job.log"}, :sauce_data=&gt;{:id=&gt;"fac665ef3d4d492c9be4df26e5422216", :"custom-data"=&gt;nil, :owner=&gt;"testing_arrgyle", :status=&gt;"complete", :error=&gt;nil, :name=&gt;"search_demonstrate_a_test_failure", :browser=&gt;"firefox", :browser_version=&gt;"17.0.1", :os=&gt;"Windows 2003", :creation_time=&gt;1379464737, :start_time=&gt;1379464738, :end_time=&gt;1379464758, :video_url=&gt;"http://saucelabs.com/jobs/fac665ef3d4d492c9be4df26e5422216/video.flv", :log_url=&gt;"http://saucelabs.com/jobs/fac665ef3d4d492c9be4df26e5422216/selenium-server.log", :public=&gt;nil, :tags=&gt;["depth:shallow"], :passed=&gt;false}}</pre></div></section><section><p class="title" data-section-title=""><a href="#panelce667122-64c3-4486-8a61-7a9882e559cf">Dom HTML 0</a></p>
-<div class="content" data-section-content=""></div></section>
-</div></div></div>
-</div></div>
-</div></div>
-</div>
-</div></div></div>
-
-Randomized with seed 15563
-

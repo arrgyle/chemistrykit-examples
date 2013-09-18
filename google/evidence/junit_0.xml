@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites errors="0" failures="1" skipped="0" tests="2" time="63.833422486" timestamp="2013-09-18T00:24:18+00:00">
+<testsuites errors="0" failures="1" skipped="0" tests="2" time="58.191349534" timestamp="2013-09-18T00:39:29+00:00">
   <testsuite name="search" tests="2" errors="0" failures="1" skipped="0">
     <properties/>
-    <testcase name="search_search_returns_a_relevant_result" time="24.601408788">
+    <testcase name="search_search_returns_a_relevant_result" time="25.282003859">
     </testcase>
-    <testcase name="search_search_returns_a_relevant_result_redux" time="30.748737742">
-      <failure message="failed Search search returns a relevant result redux" type="failed">
+    <testcase name="search_demonstrate_a_test_failure" time="24.384851709">
+      <failure message="failed Search demonstrate a test failure" type="failed">
         <![CDATA[expected: false value
      got: true
 ./beakers/search_beaker.rb:17:in `block (2 levels) in <top (required)>']]>
