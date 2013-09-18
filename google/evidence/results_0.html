@@ -1,0 +1,89 @@
+<div class="results" data-count="2" data-duration="63.833422486" data-failures="1" data-pendings="0"><div class="row example-group failing "><div class="large-12 columns">
+<h3>
+<i class="icon-beaker"></i> Search</h3>
+<div class="examples">
+<div class="row example passing hide"><div class="large-12 columns">
+<div class="row example-heading">
+<div class="large-9 columns"><p>Search returns a relevant result</p></div>
+<div class="large-3 columns text-right"><p>24s</p></div>
+</div>
+<div class="row example-body"><div class="large-12 columns"></div></div>
+</div></div>
+<div class="row example failing "><div class="large-12 columns">
+<div class="row example-heading">
+<div class="large-9 columns"><p>Search returns a relevant result redux</p></div>
+<div class="large-3 columns text-right"><p>30s</p></div>
+</div>
+<div class="row example-body"><div class="large-12 columns">
+<div class="row exception"><div class="large-12 columns"><pre>expected: false value
+     got: true</pre></div></div>
+<div class="row code-snippet"><div class="large-12 columns"><pre class="ruby"><code><span class="linenum">15</span>  <span class="comment"># looks like in the HTML report in the evidence directory</span>
+<span class="linenum">16</span>  <span class="ident">it</span> <span class="punct">'</span><span class="string">search returns a relevant result redux</span><span class="punct">'</span> <span class="keyword">do</span>
+<span class="offending"><span class="linenum">17</span>    <span class="attribute">@result</span><span class="punct">.</span><span class="ident">should</span> <span class="ident">be_false</span></span>
+<span class="linenum">18</span>  <span class="keyword">end</span></code></pre></div></div>
+<div class="row extra-content"><div class="large-12 columns"><div class="section-container auto" data-section="">
+<section><p class="title" data-section-title=""><a href="#panela7d714d8-e22c-4370-a24d-dab7136a02c8">Failure Screenshot</a></p>
+<div class="content" data-section-content=""><img src="/vagrant/chemistrykit-examples/google/evidence/search/search_search_returns_a_relevant_result_redux/failshot.png"></div></section><section><p class="title" data-section-title=""><a href="#panelecd2efe5-4211-4262-95d5-78c25ef580b4">Stack Trace</a></p>
+<div class="content" data-section-content=""><pre>./beakers/search_beaker.rb:17:in `block (2 levels) in &lt;top (required)&gt;'</pre></div></section><section><p class="title" data-section-title=""><a href="#panel0b9bc09e-43f9-4410-b4b0-483595e55e29">Server.log</a></p>
+<div class="content" data-section-content=""><pre>Sep 18, 2013 12:23:43 AM org.openqa.grid.selenium.GridLauncher main
+INFO: Launching a standalone server
+Setting system property webdriver.firefox.logfile to c:\log\firefox.log
+00:23:43.953 INFO - Java: Sun Microsystems Inc. 20.10-b01
+00:23:43.953 INFO - OS: Windows 2003 5.2 x86
+00:23:43.968 INFO - v2.32.0, with Core v2.32.0. Built from revision 6c40c18
+00:23:44.109 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4443/wd/hub
+00:23:44.109 INFO - Version Jetty/5.1.x
+00:23:44.125 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+00:23:44.125 INFO - Started HttpContext[/selenium-server,/selenium-server]
+00:23:44.125 INFO - Started HttpContext[/,/]
+00:23:44.203 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@ee22f7
+00:23:44.203 INFO - Started HttpContext[/wd,/wd]
+00:23:44.203 INFO - Started SocketListener on 0.0.0.0:4443
+00:23:44.203 INFO - Started org.openqa.jetty.jetty.Server@74c3aa
+00:23:45.453 INFO - Executing: [new session: {port=80, host=ondemand.saucelabs.com, browserName=firefox, local_application_port=3001, browser_url=http://saucelabs.com, access_key=ab7a6e17-16df-42d2-9ef6-c8d25..., webdriver.remote.quietExceptions=true, start_tunnel=true, capture_traffic=false, client_version=Ruby: ruby 1.9.3 (x86_64-linu...}] at URL: /session)
+00:23:49.046 INFO - Done: /session
+00:23:49.078 INFO - Executing: [execute script: window.moveTo(0,0);window.resizeTo(screen.width,screen.height);, []] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/execute)
+00:23:49.093 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/execute
+00:23:49.109 INFO - Executing: [maximise window] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/window/current/maximize)
+00:23:49.125 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/window/current/maximize
+00:23:49.140 INFO - Executing: [get window handles] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/window_handles)
+00:23:49.171 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/window_handles
+00:23:49.390 INFO - Executing: org.openqa.selenium.remote.server.handler.GetSessionCapabilities@cef6f1 at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5)
+00:23:49.390 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5
+00:23:49.656 INFO - Executing: [get: http://google.com/] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/url)
+00:23:56.718 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/url
+00:23:57.078 INFO - Executing: [get title] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/title)
+00:23:57.078 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/title
+00:23:57.328 INFO - Executing: [find element: By.id: gbqfq] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element)
+00:23:57.390 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element
+00:23:57.593 INFO - Executing: [send keys: 0 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@32965f9e, [elemental selenium tips]] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element/0/value)
+00:23:58.265 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element/0/value
+00:23:58.718 INFO - Executing: [find element: By.id: gbqfb] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element)
+00:23:58.718 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element
+00:23:58.984 INFO - Executing: [click: 1 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@faf24ff8] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element/1/click)
+00:23:59.203 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element/1/click
+00:23:59.640 INFO - Executing: [find element: By.selector: #rso .g] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element)
+00:23:59.812 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element
+00:23:59.937 INFO - Executing: [is displayed: 2 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@4b470a2d] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element/2/displayed)
+00:23:59.984 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element/2/displayed
+00:24:00.187 INFO - Executing: [find element: By.selector: #rso .g] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element)
+00:24:00.203 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element
+00:24:00.328 INFO - Executing: [get text: 2 org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement@4b470a2d] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element/2/text)
+00:24:00.562 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/element/2/text
+00:24:00.781 INFO - Executing: [get window handles] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/window_handles)
+00:24:00.812 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/window_handles
+00:24:01.000 INFO - Executing: [switch to window: {3043f4bd-e53a-4e64-b59e-f81ef1766ecf}] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/window)
+00:24:01.031 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/window
+00:24:01.156 INFO - Executing: [get page source] at URL: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/source)
+00:24:01.265 INFO - Done: /session/09e9fd93-305a-48b9-bd5c-cbac543961c5/source
+</pre></div></section><section><p class="title" data-section-title=""><a href="#panel5f13959c-d071-4c9d-9ec4-7f12f2d69a37">Sauce_job.log</a></p>
+<div class="content" data-section-content=""><pre>{:assets=&gt;{:failshot=&gt;"failshot.png", :server_log=&gt;"server.log", :job_data_log=&gt;"sauce_job.log"}, :sauce_data=&gt;{:id=&gt;"71a7a46c6140493c8c0a0e6605790683", :"custom-data"=&gt;nil, :owner=&gt;"testing_arrgyle", :status=&gt;"complete", :error=&gt;nil, :name=&gt;"search_search_returns_a_relevant_result_redux", :browser=&gt;"firefox", :browser_version=&gt;"17.0.1", :os=&gt;"Windows 2003", :creation_time=&gt;1379463820, :start_time=&gt;1379463823, :end_time=&gt;1379463847, :video_url=&gt;"http://saucelabs.com/jobs/71a7a46c6140493c8c0a0e6605790683/video.flv", :log_url=&gt;"http://saucelabs.com/jobs/71a7a46c6140493c8c0a0e6605790683/selenium-server.log", :public=&gt;nil, :tags=&gt;["depth:shallow"], :passed=&gt;false}}</pre></div></section><section><p class="title" data-section-title=""><a href="#paneldd175af7-1be5-422d-aded-245faf14df7e">Dom HTML 0</a></p>
+<div class="content" data-section-content=""></div></section>
+</div></div></div>
+</div></div>
+</div></div>
+</div>
+</div></div></div>
+
+Randomized with seed 45394
+
